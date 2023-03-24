@@ -1,0 +1,105 @@
+@media(max-width:1020px){
+    .telephone,.world,.nav-bar{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    header{
+        height: 300px;
+    }
+}
+@media(max-width:700px){
+.logo h4{
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 40px;
+}
+.big h1{
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+padding-top: 70px;
+}
+header{
+ height: 250px;
+}
+}
+
+/* header */
+@media(max-width:500px){
+    .chev p:nth-child(1){
+        display: none;
+    }
+    .chev p:nth-child(3){
+        display: none;
+    }
+    .chevright{
+        display: none;
+    }
+    .chevleft{
+        display: block;
+    }
+}
+/* chevrons */
+@media(max-width:900px){
+  .section{
+    display: flex;
+    flex-direction: column;
+  } 
+  .section_left h2{
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+  }
+
+  .section_left {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .section_right{
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  
+  }
+
+}
+@media(max-width:372px){
+    .section_right{
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+
+    }
+}
+
+/* FOOTER */
+@media (max-width:500px){
+    .right-fot .up-chevron{
+        display: none;
+    }
+   .right-fot{
+    flex-direction: column;
+   }
+  footer{
+    flex-direction: column;
+  }
+  .author span{
+    font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 150%;
+  }
+  .logo h4{
+font-style: normal;
+font-weight: 600;
+font-size: 50.6165px;
+line-height: 51px;
+  }
+}

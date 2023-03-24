@@ -1,0 +1,128 @@
+@media(max-width:1029px){
+    header .logo-container .telephone,.world{
+        display: none;
+    }
+    header{
+        height: 300px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .nav-bar{
+        display: none;
+    }
+    h1{
+        font-size: 50px;
+    }
+
+
+}
+@media(max-width:1522px){
+    h1{
+        font-size: 50px;
+    }
+}
+@media (max-width:318px) {
+    h1{
+        font-size: 41px;
+    }
+
+    
+}
+@media (max-width:1346px){
+    .who-are{
+        flex-direction: column;
+    }
+    .what-we .left-what{
+        order: 2;
+    }
+    .what-we .right-what{
+        order: 1;
+    }
+
+}
+
+@media (max-width:798px){
+    .who-right img {
+        width: 100%;
+        height: 354px;
+        object-fit:fill;
+    }
+    .left-what img{
+        width: 100%;
+        height: 354px; 
+        object-fit:fill;
+        
+    }
+    @media (max-width:360px){
+        .who-right img {
+            width: 100%;
+            height: 200px;
+            object-fit:fill;
+        }
+        .left-what img{
+            width: 100%;
+            height: 200px; 
+            object-fit:fill;
+            
+        }
+
+}
+@media (max-width:692px){
+    .who-left p{
+        width: 280px;
+        width: 100%;
+    }
+    .who-left h3{
+        font-size: 44px;
+    }
+    .right-what p{
+        width: 280px;
+        width: 100%;
+    }
+    .right-what h3{
+        font-size: 44px;
+    }
+}
+@media (max-width:344px){
+    .who-left p{
+        width: 240px;
+    }
+    .who-left h3{
+        font-size: 42px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .right-what p{
+        width: 240px;
+    }
+    .right-what h3{
+        font-size: 42px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+@media (max-width:500px){
+    .right-fot .up-chevron{
+        display: none;
+    }
+   .right-fot{
+    flex-direction: column;
+   }
+  footer{
+    flex-direction: column;
+  }
+  .author span{
+    font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 150%;
+  }
+  .logo h4{
+font-style: normal;
+font-weight: 600;
+font-size: 50.6165px;
+line-height: 51px;
+  }
+}
+}

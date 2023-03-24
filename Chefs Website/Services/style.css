@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+   
+}
+:root{
+    --green:#00543D;
+    --cream:#FFF1D4;
+    --brown:#CC9964;
+}
+body{
+    background-color: #fff1d4;
+    max-width: 100%;
+    
+}
+header{
+    background-color:var(--green);
+    border-radius: 0 0 50px 50px;
+    padding-top: 30px;
+
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    color: #fff1d4;
+}
+.telephone a{
+    color: #fff1d4;
+    padding-left: 50px;
+}
+.logo h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    letter-spacing: 8px;
+    
+}
+.world i{
+    padding-right: 20px;
+
+}
+.hamburger{
+    display: none;
+}
+.nav-bar{
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+}
+.nav-bar ul a{
+    color: #fff1d4;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.9px;
+
+}
+h1{
+font-style: normal;
+font-weight: 300;
+font-size: 90px;
+line-height: 105px;
+color: #fff1d4;
+padding: 20px;
+
+}
+.big {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.chev{
+    margin: 20px 50px;
+    display: flex;
+    gap: 1rem;
+    color: #00543D;
+    align-items: center;
+    
+}
+.chevleft{
+    display: none;
+}
+.chev p{
+    color: var(--green);
+    font-size: 16px;
+    line-height: 24px;
+}
+.chev p:first-child{
+    opacity: 70%;
+}
+.foods{
+    margin: 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    row-gap: 20px;
+    column-gap: 20px;   
+}
+.foods .meal{
+    display: grid;
+    height: 316px;
+    border: 1px solid var(--brown);
+    border-radius: 40px;
+    background-image: url(meal1.png);
+    object-fit: fill;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+      
+}
+.meal p{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #fff1d4;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    border-radius: 0px 0px 50px 50px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 93.28px;
+    padding-left: 27px;
+    padding-top: 27px;
+}
+.secret_foods{
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    display: none;
+}
+.sc_meal{
+width: 280px;
+height: 358.93px;
+border-radius: 40px;
+border: 1px solid var(--brown);
+position: relative;
+background-position: center;
+
+}
+.sc_meal p{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #fff1d4;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    background-blend-mode: soft-light;
+    border-radius: 0px 0px 31px 31px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 93.28px;
+    padding-left: 27px;
+    padding-top: 27px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #00543D;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF1D4;
+    margin-top: 120px;
+}
+.left-fot .icons a{
+    color: #FFF1D4;
+}
+.left-fot{
+    margin: 50px 20px;
+    
+}
+.left-fot h4{
+    font-size: 80px;
+    font-weight: 800;
+}
+.left-fot a{
+    margin: 0;
+    padding-right: 10px;
+}
+.left-fot a i{
+    font-size: 25px;
+    padding-top: 35px;
+    padding-right: 5px;
+}
+.right-fot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 20px;
+    
+}
+.right-fot .up-chevron{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFF1D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+
+  
+    
+}
+.right-fot span{
+  padding-right: 20px;
+}
+.right-fot .up-chevron i{
+    color: #00543D;
+    
+}
+.end{
+    background-color: #00543D;
+    width: 100%;
+    height: 80px;
+}
+.end_line{
+    width: 100%;
+    border: 1px solid #FFF1D4;
+    background-color:var(--cream);
+}
+.author{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px ;
+}
+.author span{
+    color: #FFF1D4;
+    font-size: 15px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
